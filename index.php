@@ -111,28 +111,14 @@
                         <!--noindex-->
                             <?include_once("./inc/yandex-share.php");?>
                         <!--/noindex-->
-                        <h2>Объекты от застройщиков</h2>
-                        <h3>Железнодорожный район</h3>
-                        <img src="/img/developers/1j.jpg"/>
+                        <h2>Горящие объекты от подрядчиков</h2>
+                        <p>Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
+                        <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
+                        <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
+                        <img class="prd-main_images" src="/img/developers/prd.jpg"/>
                         <p class="sub-table_link">
                             <a href="/construction/">Посмотреть весь список объектов</a> <i>(обновление было: <?=date('d.m.Y')?>)</i>
                         </p>
-                        <?/*?>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                            <tr>
-                                <td align="center"><a target="_blank" href="http://www.makehouse.pro" title="MakeHouse.pro — строительство домов в Новосибирске и Новосибирской области"><img src="/img/makehouse.jpg"></a></td>
-                                <td align="center"><a href="/construction/"><img src="/img/oasis_n.png"></a></td>
-                                <td align="center"><a href="/construction/"><img src="/img/kvartal_n.png"></a></td>
-                            </tr>
-                            <tr>
-                                <td align="center"><a href="/construction/"><img src="/img/logo-klenovia.jpg"></a></td>
-                                <td align="center"><a href="/construction/"><img src="/img/bavaria_n.png"></a></td>
-                                <td align="center"></td>
-                            </tr>
-                        </table>
-                        <?*/?>
-                        <p>Дополнительную информацию по приобритению жилья у застройщиков, можно получить по телефонам: т. 33-11-524, +7 (903) 931-15-24 Сидоркин Вячеслав.</p>
-                        <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
                         <h2>Банки - партнеры</h2>
                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <tr valign="middle">

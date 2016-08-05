@@ -77,29 +77,44 @@
                         <div class="breadcrumb-navigation">
                             <a href="/">Главная</a> / <a href="/construction/">Объекты</a>
                         </div>
-                        <h1>Объекты от застройщиков</h1>
-                        <p>Дополнительную информацию по приобритению жилья у застройщиков, можно получить по телефонам: т. 331-15-24, +7 (903) 931-15-24 Сидоркин Вячеслав.</p>
+                        <h1>Горящие объекты от подрядчиков</h1>
+                        <p>Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
                         <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
+                        <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
+                        <h3>Заельцовский район</h3>
+                        <img class="prd-main_images" src="/img/developers/1-zl.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/2-zl.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-zl.jpg"/></br></br>
                         <h3>Железнодорожный район</h3>
-                        <img src="/img/developers/1j.jpg"/></br></br>
-                        <img src="/img/developers/2j.jpg"/></br></br>
-                        <img src="/img/developers/3j.jpg"/>
+                        <img class="prd-main_images" src="/img/developers/2-jl.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-jl.jpg"/>
                         <h3>Дзержинский район</h3>
-                        <img src="/img/developers/1d.jpg"/></br></br>
-                        <img src="/img/developers/2d.jpg"/></br></br>
-                        <img src="/img/developers/3d.jpg"/>
-                        <?/*?>
-                        <p>Агентство недвижимости «Планета» заключила договора со следующими застройщиками:</p>
-                        <ul>
-                            <li>ООО «АКД» жилой комплекс «Бавария» </li>
-                            <li>ООО «АКД-Мета» Жилой комплекс «Оазис»</li>
-                            <li>ГК "Стрижи" Жилой комплекс «Светлая роща»</li>
-                            <li>ГК "Стрижи" Жилой комплекс «Кленовая аллея»</li>
-                            <li>ООО «Приборкомплекс» г. Объ, ул. Большая 5</li>
-                        </ul>
-                        <?*/?>
-                        <p class="sub-table_link">Дополнительную информацию по приобритению жилья у застройщиков, можно получить по телефонам: т. 331-15-24, +7 (903) 931-15-24 Сидоркин Вячеслав.</p>
+                        <img class="prd-main_images" src="/img/developers/1-dzr.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/2-dzr.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-dzr.jpg"/>
+                        <h3>Центральный район</h3>
+                        <img class="prd-main_images" src="/img/developers/1-cn.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/2-cn.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-cn.jpg"/>
+                        <h3>Кировский район</h3>
+                        <img class="prd-main_images" src="/img/developers/1-kir.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/2-kir.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-kir.jpg"/>
+                        <h3>Ленинский район</h3>
+                        <img class="prd-main_images" src="/img/developers/1-ln.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/2-ln.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-ln.jpg"/>
+                        <h3>Калининский район</h3>
+                        <img class="prd-main_images" src="/img/developers/1-kln.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/2-kln.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-kln.jpg"/>
+                        <h3>Октябрьский район</h3>
+                        <img class="prd-main_images" src="/img/developers/1-okt.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/2-okt.jpg"/></br></br>
+                        <img class="prd-main_images" src="/img/developers/3-okt.jpg"/>
+                        <p class="sub-table_link">Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
                         <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
+                        <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
                         <!--noindex-->
                             <?include_once("../inc/yandex-share.php");?>
                         <!--/noindex-->
