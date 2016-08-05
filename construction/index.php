@@ -77,41 +77,68 @@
                         <div class="breadcrumb-navigation">
                             <a href="/">Главная</a> / <a href="/construction/">Объекты</a>
                         </div>
-                        <h1>Горящие объекты от подрядчиков</h1>
+                        <h1>Варианты квартир</h1>
                         <p>Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
                         <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
                         <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
+                        <p>
+                            <ul>
+                                <li><a href="#zl-1">1-комнатные квартиры в Заельцовский районе</a></li>
+                                <li><a href="#zl-2">2-комнатные квартиры в Заельцовский районе</a></li>
+                                <li><a href="#zl-3">3-комнатные квартиры в Заельцовский районе</a></li>
+                                <li><a href="#jl-2">2-комнатные квартиры в Железнодорожный районе</li>
+                                <li><a href="#jl-3">3-комнатные квартиры в Железнодорожный районе</li>
+                                <li><a href="#dzr-1">1-комнатные квартиры в Дзержинский районе</li>
+                                <li><a href="#dzr-2">2-комнатные квартиры в Дзержинский районе</li>
+                                <li><a href="#dzr-3">3-комнатные квартиры в Дзержинский районе</li>
+                                <li><a href="#cn-1">1-комнатные квартиры в Центральный районе</li>
+                                <li><a href="#cn-2">2-комнатные квартиры в Центральный районе</li>
+                                <li><a href="#cn-3">3-комнатные квартиры в Центральный районе</li>
+                                <li><a href="#kir-1">1-комнатные квартиры в Кировский районе</li>
+                                <li><a href="#kir-2">2-комнатные квартиры в Кировский районе</li>
+                                <li><a href="#kir-3">3-комнатные квартиры в Кировский районе</li>
+                                <li><a href="#ln-1">1-комнатные квартиры в Ленинский районе</li>
+                                <li><a href="#ln-2">2-комнатные квартиры в Ленинский районе</li>
+                                <li><a href="#ln-3">3-комнатные квартиры в Ленинский районе</li>
+                                <li><a href="#kln-1">1-комнатные квартиры в Калининский районе</li>
+                                <li><a href="#kln-2">2-комнатные квартиры в Калининский районе</li>
+                                <li><a href="#kln-3">3-комнатные квартиры в Калининский районе</li>
+                                <li><a href="#okt-1">1-комнатные квартиры в Октябрьский районе</li>
+                                <li><a href="#okt-2">2-комнатные квартиры в Октябрьский районе</li>
+                                <li><a href="#okt-3">3-комнатные квартиры в Октябрьский районе</li>
+                            </ul>
+                        </p>
                         <h3>Заельцовский район</h3>
-                        <img class="prd-main_images" src="/img/developers/1-zl.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/2-zl.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-zl.jpg"/></br></br>
+                        <img id="zl-1" class="prd-main_images" src="/img/developers/1-zl.jpg"/></br></br>
+                        <img id="zl-2" class="prd-main_images" src="/img/developers/2-zl.jpg"/></br></br>
+                        <img id="zl-3" class="prd-main_images" src="/img/developers/3-zl.jpg"/></br></br>
                         <h3>Железнодорожный район</h3>
-                        <img class="prd-main_images" src="/img/developers/2-jl.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-jl.jpg"/>
+                        <img id="jl-2" class="prd-main_images" src="/img/developers/2-jl.jpg"/></br></br>
+                        <img id="jl-3" class="prd-main_images" src="/img/developers/3-jl.jpg"/>
                         <h3>Дзержинский район</h3>
-                        <img class="prd-main_images" src="/img/developers/1-dzr.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/2-dzr.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-dzr.jpg"/>
+                        <img id="dzr-1" class="prd-main_images" src="/img/developers/1-dzr.jpg"/></br></br>
+                        <img id="dzr-2" class="prd-main_images" src="/img/developers/2-dzr.jpg"/></br></br>
+                        <img id="dzr-3" class="prd-main_images" src="/img/developers/3-dzr.jpg"/>
                         <h3>Центральный район</h3>
-                        <img class="prd-main_images" src="/img/developers/1-cn.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/2-cn.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-cn.jpg"/>
+                        <img id="cn-1" class="prd-main_images" src="/img/developers/1-cn.jpg"/></br></br>
+                        <img id="cn-2" class="prd-main_images" src="/img/developers/2-cn.jpg"/></br></br>
+                        <img id="cn-3" class="prd-main_images" src="/img/developers/3-cn.jpg"/>
                         <h3>Кировский район</h3>
-                        <img class="prd-main_images" src="/img/developers/1-kir.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/2-kir.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-kir.jpg"/>
+                        <img id="kir-1" class="prd-main_images" src="/img/developers/1-kir.jpg"/></br></br>
+                        <img id="kir-2" class="prd-main_images" src="/img/developers/2-kir.jpg"/></br></br>
+                        <img id="kir-3" class="prd-main_images" src="/img/developers/3-kir.jpg"/>
                         <h3>Ленинский район</h3>
-                        <img class="prd-main_images" src="/img/developers/1-ln.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/2-ln.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-ln.jpg"/>
+                        <img id="ln-1" class="prd-main_images" src="/img/developers/1-ln.jpg"/></br></br>
+                        <img id="ln-2" class="prd-main_images" src="/img/developers/2-ln.jpg"/></br></br>
+                        <img id="ln-3" class="prd-main_images" src="/img/developers/3-ln.jpg"/>
                         <h3>Калининский район</h3>
-                        <img class="prd-main_images" src="/img/developers/1-kln.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/2-kln.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-kln.jpg"/>
+                        <img id="kln-1" class="prd-main_images" src="/img/developers/1-kln.jpg"/></br></br>
+                        <img id="kln-2" class="prd-main_images" src="/img/developers/2-kln.jpg"/></br></br>
+                        <img id="kln-3" class="prd-main_images" src="/img/developers/3-kln.jpg"/>
                         <h3>Октябрьский район</h3>
-                        <img class="prd-main_images" src="/img/developers/1-okt.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/2-okt.jpg"/></br></br>
-                        <img class="prd-main_images" src="/img/developers/3-okt.jpg"/>
+                        <img id="okt-1" class="prd-main_images" src="/img/developers/1-okt.jpg"/></br></br>
+                        <img id="okt-2" class="prd-main_images" src="/img/developers/2-okt.jpg"/></br></br>
+                        <img id="okt-3" class="prd-main_images" src="/img/developers/3-okt.jpg"/>
                         <p class="sub-table_link">Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
                         <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
                         <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
