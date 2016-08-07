@@ -17,11 +17,15 @@
         <link href="/css/template_styles.css" type="text/css" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&amp;subset=cyrillic,latin-ext,latin" rel="stylesheet" type="text/css">
         <link href="/css/colors.css" rel="stylesheet" type="text/css">
+        <link href="/css/pill.css" rel="stylesheet" type="text/css">
         <link href="/css/developers.css" rel="stylesheet" type="text/css">
         <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv.js"></script><![endif]-->
-        <script type="text/javascript" src="/js/jquery1.8.2-min.js"></script>
+        <?/*?><script type="text/javascript" src="/js/jquery1.8.2-min.js"></script><?*/?>
+        <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="/js/scripts.js"></script>
         <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+        <script type="text/javascript" src="/js/jquery.scrollUp.js"></script>
+        <script type="text/javascript" src="/js/developers.js"></script>
         <!--noindex-->
             <?include_once("../inc/zopim.php");?>
         <!--/noindex-->
@@ -86,32 +90,47 @@
                                 <li><a href="#zl-1">1-комнатные квартиры в Заельцовский районе</a></li>
                                 <li><a href="#zl-2">2-комнатные квартиры в Заельцовский районе</a></li>
                                 <li><a href="#zl-3">3-комнатные квартиры в Заельцовский районе</a></li>
-                                <li><a href="#jl-2">2-комнатные квартиры в Железнодорожный районе</li>
-                                <li><a href="#jl-3">3-комнатные квартиры в Железнодорожный районе</li>
-                                <li><a href="#dzr-1">1-комнатные квартиры в Дзержинский районе</li>
-                                <li><a href="#dzr-2">2-комнатные квартиры в Дзержинский районе</li>
-                                <li><a href="#dzr-3">3-комнатные квартиры в Дзержинский районе</li>
-                                <li><a href="#cn-1">1-комнатные квартиры в Центральный районе</li>
-                                <li><a href="#cn-2">2-комнатные квартиры в Центральный районе</li>
-                                <li><a href="#cn-3">3-комнатные квартиры в Центральный районе</li>
-                                <li><a href="#kir-1">1-комнатные квартиры в Кировский районе</li>
-                                <li><a href="#kir-2">2-комнатные квартиры в Кировский районе</li>
-                                <li><a href="#kir-3">3-комнатные квартиры в Кировский районе</li>
-                                <li><a href="#ln-1">1-комнатные квартиры в Ленинский районе</li>
-                                <li><a href="#ln-2">2-комнатные квартиры в Ленинский районе</li>
-                                <li><a href="#ln-3">3-комнатные квартиры в Ленинский районе</li>
-                                <li><a href="#kln-1">1-комнатные квартиры в Калининский районе</li>
-                                <li><a href="#kln-2">2-комнатные квартиры в Калининский районе</li>
-                                <li><a href="#kln-3">3-комнатные квартиры в Калининский районе</li>
-                                <li><a href="#okt-1">1-комнатные квартиры в Октябрьский районе</li>
-                                <li><a href="#okt-2">2-комнатные квартиры в Октябрьский районе</li>
-                                <li><a href="#okt-3">3-комнатные квартиры в Октябрьский районе</li>
+                                <li><a href="#jl-2">2-комнатные квартиры в Железнодорожный районе</a></li>
+                                <li><a href="#jl-3">3-комнатные квартиры в Железнодорожный районе</a></li>
+                                <li><a href="#dzr-1">1-комнатные квартиры в Дзержинский районе</a></li>
+                                <li><a href="#dzr-2">2-комнатные квартиры в Дзержинский районе</a></li>
+                                <li><a href="#dzr-3">3-комнатные квартиры в Дзержинский районе</a></li>
+                                <li><a href="#cn-1">1-комнатные квартиры в Центральный районе</a></li>
+                                <li><a href="#cn-2">2-комнатные квартиры в Центральный районе</a></li>
+                                <li><a href="#cn-3">3-комнатные квартиры в Центральный районе</a></li>
+                                <li><a href="#kir-1">1-комнатные квартиры в Кировский районе</a></li>
+                                <li><a href="#kir-2">2-комнатные квартиры в Кировский районе</a></li>
+                                <li><a href="#kir-3">3-комнатные квартиры в Кировский районе</a></li>
+                                <li><a href="#ln-1">1-комнатные квартиры в Ленинский районе</a></li>
+                                <li><a href="#ln-2">2-комнатные квартиры в Ленинский районе</a></li>
+                                <li><a href="#ln-3">3-комнатные квартиры в Ленинский районе</a></li>
+                                <li><a href="#kln-1">1-комнатные квартиры в Калининский районе</a></li>
+                                <li><a href="#kln-2">2-комнатные квартиры в Калининский районе</a></li>
+                                <li><a href="#kln-3">3-комнатные квартиры в Калининский районе</a></li>
+                                <li><a href="#okt-1">1-комнатные квартиры в Октябрьский районе</a></li>
+                                <li><a href="#okt-2">2-комнатные квартиры в Октябрьский районе</a></li>
+                                <li><a href="#okt-3">3-комнатные квартиры в Октябрьский районе</a></li>
                             </ul>
                         </p>
                         <h3>Заельцовский район</h3>
                         <img id="zl-1" class="prd-main_images" src="/img/developers/1-zl.jpg"/></br></br>
+                        <noindex>
+                            <p class="sub-table_link">Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
+                            <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
+                            <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
+                        </noindex>
                         <img id="zl-2" class="prd-main_images" src="/img/developers/2-zl.jpg"/></br></br>
-                        <img id="zl-3" class="prd-main_images" src="/img/developers/3-zl.jpg"/></br></br>
+                        <noindex>
+                            <p class="sub-table_link">Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
+                            <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
+                            <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
+                        </noindex>
+                        <img id="zl-3" class="prd-main_images" src="/img/developers/3-zl.jpg"/></br></br>\
+                        <noindex>
+                            <p class="sub-table_link">Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
+                            <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
+                            <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
+                        </noindex>
                         <h3>Железнодорожный район</h3>
                         <img id="jl-2" class="prd-main_images" src="/img/developers/2-jl.jpg"/></br></br>
                         <img id="jl-3" class="prd-main_images" src="/img/developers/3-jl.jpg"/>
@@ -139,9 +158,11 @@
                         <img id="okt-1" class="prd-main_images" src="/img/developers/1-okt.jpg"/></br></br>
                         <img id="okt-2" class="prd-main_images" src="/img/developers/2-okt.jpg"/></br></br>
                         <img id="okt-3" class="prd-main_images" src="/img/developers/3-okt.jpg"/>
+                        <noindex>
                         <p class="sub-table_link">Дополнительную информацию по приобритению жилья у подрядчиков, можно получить по телефонам: т. 33-11-524, 263-46-83.</p>
                         <p>А также по адресу: ул. Крылова 36, офис 521б, вход со стороны ул. Семьи Шамшиных.</p>
-                        <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p>
+                        <p><strong>Внимание! Цены договорные, обсуждаются индивидуально!</strong></p> 
+                        </noindex>
                         <!--noindex-->
                             <?include_once("../inc/yandex-share.php");?>
                         <!--/noindex-->
